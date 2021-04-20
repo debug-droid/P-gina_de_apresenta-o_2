@@ -260,7 +260,8 @@ footer .detail {
 
 /* geral */
 p, input, textarea, #navbar-list li a {
-    font-size: 1.2rem;
+    display: inline-block;
+    font-size: 1rem;
 }
 
 /* navbar */
@@ -289,7 +290,7 @@ p, input, textarea, #navbar-list li a {
 }
 
 #banner-info p {
-    margin: 0;
+    margin-top: 35px;
     width: auto;
 }
 
@@ -297,6 +298,12 @@ p, input, textarea, #navbar-list li a {
     padding: 2rem;
     height: auto;
     padding-bottom: 50px;
+}
+
+/* about */
+
+#about-section p {
+    margin-top: 30px;
 }
 
 /* skills */
